@@ -6,7 +6,4 @@ if start == "*": result = a * b
 elif start == "+": result = a + b
 elif start == "-":result = a - b
 elif start == "/":result = a / b
-else:
-print("wrong!")
-exit()
 print(result)
