@@ -63,7 +63,7 @@ languages = {
 }
 
 def get_language():
-    lang = input(languages['ru']['choose_lang']).strip().lower()
+    lang = input(languages["ru'"]["choose_lang"]).strip().lower()
     if lang not in languages:
         print("Неверный выбор языка! Будет использован русский.")
         return 'ru'
@@ -111,4 +111,5 @@ def main():
 
     while True:
         choice = input(languages[lang]['
+
 
